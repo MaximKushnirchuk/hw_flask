@@ -1,0 +1,31 @@
+#  USER
+GET http://127.0.0.1:5000/user/2/
+
+###
+
+POST http://127.0.0.1:5000/user/
+Content-Type: application/json
+
+{
+    "name": "Test User_1",
+    "password": "Test DFsdfDFFS"
+}
+
+###
+
+# ADVERTISEMENT
+GET http://127.0.0.1:5000/advertisement/2/
+
+###
+POST http://127.0.0.1:5000/advertisement/
+Content-Type: application/json
+
+{
+    "title": "test title 2",
+    "description": "Test description 2",
+    "owner": 1
+}
+
+###
+DELETE http://127.0.0.1:5000/advertisement/2/
+
